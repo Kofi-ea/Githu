@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox Practice</title>
+  </head>
+  <body style="padding-bottom: 1000px">
+    <div style="display: flex; flex-direction: row;height:40px ">
+      <div style="background-color: lightblue">div 1</div>
+      <div style="background-color: lightpink">div 2</div>
+    </div>
+
+    <div style="display: flex; flex-direction: row; margin-top: 30px">
+      <div style="background-color: lightblue; width: 100px">100px</div>
+      <div style="background-color: lightpink; flex: 1">flex 1</div>
+    </div>
+
+    <div
+      style="
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        height: 70px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: gray;
+        justify-content: center;
+      "
+    >
+      <div style="background-color: lightblue; width: 100px">100px</div>
+      <div style="background-color: lightpink; width: 100px">100px</div>
+      <div style="background-color: lightblue; width: 100px">100px</div>
+    </div>
+
+    <div
+      style="
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        height: 70px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: gray;
+        justify-content: space-between;
+      "
+    >
+      <div style="background-color: lightblue; width: 100px">100px</div>
+      <div style="background-color: lightpink; width: 100px">100px</div>
+      <div style="background-color: lightblue; width: 100px">100px</div>
+    </div>
+
+    <div
+      style="
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        height: 70px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: gray;
+        justify-content: space-between;
+        align-items: center;
+      "
+    >
+      <div style="background-color: lightblue; width: 100px">100px</div>
+      <div style="background-color: lightpink; width: 100px">100px</div>
+      <div style="background-color: lightblue; width: 100px">100px</div>
+    </div>
+
+    <div
+      style="
+        display: flex;
+        flex-direction: row;
+        height: 100px;
+        margin-top: 20px;
+        border-style: solid;
+        justify-content: space-between;
+        align-items: center;
+      "
+    >
+      <div style="background-color: aqua; width: 70px">Start</div>
+      <div style="background-color: blueviolet; width: 70px">
+        <input type="text" placeholder="Search" />
+      </div>
+      <div style="background-color: cadetblue; width: 70px">end</div>
+    </div>
+
+
+
+    <div style="background-color: aqua; margin-top: 300px; ">
+      <div style="display: inline-block;"><img style="height: 80px; border-radius: 40px; width: 80px; display: inline-block;" src="../images/puppy.avif" alt=""></div>
+     
+        <p style="display: inline-block;">Oliver</p>
+        <p>The dog</p>
+      
+      <div style="display: inline-block;"><button></button></div>
+    </div>
+
+    <div class="profile">
+      <img class="profile-picture" src="cat.jpg">
+      <p class="name">
+        Oliver
+      </p>
+      <div class="mutual-friends-row">
+        <img class="mutual-friend-picture" src="../images/puppy.avif">
+        <p class="mutual-friends">
+          2 mutual friends
+        </p>
+      </div>
+      <button class="add-friend-button">
+        Add Friend
+      </button>
+    </div>
+  </body>
+</html>
