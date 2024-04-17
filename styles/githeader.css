@@ -1,7 +1,5 @@
 .header {
-
-
-  background-color: rgb(238, 238, 238);
+ background-color: rgb(238, 238, 238);
   border-style: solid;
   height: 110px;
   margin-top: 0;
@@ -51,9 +49,8 @@ cursor: pointer;
 .Logo:hover{
 cursor: pointer;
 }
-.account-name-box{
+.account-name-container{
   display: flex;
-  
   align-items: center;
 }
 
