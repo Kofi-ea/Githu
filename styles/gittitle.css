@@ -2,13 +2,12 @@
 
 
 .title{
-position: relative;
-
-width: 100%;
-display: flex;
-justify-content: center;
- 
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
+
 .page-title {
   border-style: solid;
   border-width: 1px;
@@ -16,21 +15,16 @@ justify-content: center;
   border-left-width: 0px;
   border-right-width: 0px;
   border-bottom-color: rgb(218, 215, 215);
-
- padding-top: 5px;
- padding-bottom: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   display: flex;
-
-width: 94%;
-
-
-align-items: center;
-justify-content: space-between;
+  width: 94%;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.page-title-left {
+.left-page-title {
   background-color: transparent;
- 
   display: flex;
   align-items: center;
 }
@@ -41,30 +35,31 @@ justify-content: space-between;
   margin-right: 8px;
 }
 
-.profile-name {
+.repository{
   display: inline-block;
   vertical-align: top;
   font-size: 20px;
- font-weight: 550;
+  font-weight: 550;
   margin-right: 10px;
   font-family: arial;
 }
-.profile-name:hover{
-cursor: pointer;
-text-decoration: underline;
+
+.repository:hover{
+  cursor: pointer;
+  text-decoration: underline;
 }
 
-.public-butt {
-font-size: 12.5px;
-font-weight: 600;
-font-family: arial;
+.repository-status{
+  font-size: 12.5px;
+  font-weight: 600;
+  font-family: arial;
   height: 15px;
   padding-top: 2px;
   padding-bottom: 1px;
-width: 40px;
-padding-left: 4px;
-padding-right: 4px;
-text-align: center;
+  width: 40px;
+  padding-left: 4px;
+  padding-right: 4px;
+  text-align: center;
   border-radius: 19px;
   border-style: solid;
   border-width: 1px;
@@ -73,23 +68,19 @@ text-align: center;
   margin-bottom: 4px;
 }
 
-.page-title-right {
+.right-page-title{
   background-color: transparent;
   display: flex;
- 
-
 }
 
-.page-title-right-butts {
+.title-buttons{
   display: flex;
-
 }
 
-.page-title-right-butts1 {
+.pin-button, .unwatch-button {
   margin-right: 10px;
   padding-left: 12px;
   padding-right: 12px;
- 
   border-radius: 8px;
   border-style: solid;
   border-width: 1px;
@@ -98,68 +89,40 @@ text-align: center;
   display: flex;
   align-items: center;
   font-family: arial;
-  
-}
-.page-title-right-butts1:hover{
-cursor: pointer;
-background-color: rgb(231, 229, 229);
 }
 
-.page-title-right-icon1 {
+.pin-icon, .views-icon{
   height: 20px;
   margin-right: 4px;
 }
 
-.page-title-right-butts2 {
-  margin-right: 10px;
-  padding-left: 12px;
-  padding-right: 12px;
 
-  font-family: arial;
-  border-style: solid;
-  border-width: 1px;
-  border-color: rgb(182, 180, 180);
-  border-radius: 8px;
-  display: flex;
-  align-items: center;
-}
-.page-title-right-butts2:hover{
-  cursor: pointer;
-  background-color: rgb(231, 229, 229);
-  }
-
-.page-title-right-icon2 {
-  height: 20px;
-  margin-right: 3px;
-}
-
-.page-title-right-butts3 {
+.fork-repository-button, .star-repository-button{
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
   border-style: solid;
   border-width: 1px;
   border-color: rgb(182, 180, 180);
+  background-color: rgb(248, 245, 245);
   padding-left: 12px;
   padding-right: 12px;
   font-family: arial;
   display: flex;
   align-items: center;
 }
-.page-title-right-butts3:hover{
-  
-  background-color: rgb(231, 229, 229);
-  }
 
-.page-title-right-icon3 {
+
+.fork-icon{
   height: 20px;
   margin-right: 6px;
 }
 
-.page-title-right-butts3b {
+.fork-repo-menu{
   margin-left: -2px;
   padding-top: 11px;
   border-style: solid;
   border-color: rgb(182, 180, 180);
+  background-color: rgb(248, 245, 245);
   padding-bottom: 8px;
   text-align: center;
   padding-left: 12px;
@@ -169,43 +132,30 @@ background-color: rgb(231, 229, 229);
   border-width: 1px;
   margin-right: 10px;
 }
-.page-title-right-butts3b:hover{
-  cursor: pointer;
-  background-color: rgb(231, 229, 229);
-  }
 
-.page-title-right-icon3b {
+.menu-sortdown-icon{
   height: 9px;
-
 }
 
-.page-title-right-butts4 {
-  border-style: solid;
-  border-width: 1px;
-  border-color: rgb(182, 180, 180);
-  border-top-left-radius: 8px;
-  border-bottom-left-radius: 8px;
-  padding-left: 12px;
-  padding-right: 12px;
-  font-family: arial;
-  display: flex;
-  align-items: center;
-}
-.page-title-right-butts4:hover{
+.star-repository-button:hover, 
+.pin-button:hover, 
+.unwatch-button:hover,
+.fork-repository-button:hover{
   cursor: pointer;
   background-color: rgb(231, 229, 229);
-  }
+}
 
-.page-title-right-icon4 {
+.star-icon{
   height: 18px;
   margin-right: 8px;
 }
 
-.page-title-right-butts4b {
+.star-repository-menu{
   margin-left: -2px;
   padding-top: 11px;
   border-style: solid;
   border-color: rgb(182, 180, 180);
+  background-color: rgb(248, 245, 245);
   padding-bottom: 8px;
   text-align: center;
   padding-left: 12px;
@@ -214,13 +164,10 @@ background-color: rgb(231, 229, 229);
   border-top-right-radius: 8px;
   border-width: 1px;
 }
-.page-title-right-butts4b:hover{
+
+.star-repository-menu:hover, .fork-repo-menu:hover{
   cursor: pointer;
   background-color: rgb(231, 229, 229);
-  }
-
-.page-title-right-icon4b {
-  height: 9px;
 }
 
 .p-number1 {
@@ -231,39 +178,40 @@ background-color: rgb(231, 229, 229);
   height: 16px;
   border-radius: 50%;
   text-align: center;
-padding-top: 2px;
+  padding-top: 2px;
   background-color: rgb(201, 199, 199);
   margin-left: 5px;
   margin-right: 5px;
 }
-.hidden-title-menu{
-margin-top: 20px;
-display: none;
 
+.hidden-title{
+  margin-top: 20px;
+  display: none;
 }
-.hidden-butt1, .hidden-butt2, .hidden-butt3{
+
+.notifications-settings-button, .fork-repo-button, .star-repo-button{
   padding-top: 4px;
   padding-bottom: 4px;
   border-radius: 5px;
   border-color: rgb(216, 215, 215);
   border-style: solid;
   border-width: 1px;
-  
 }
-.hidden-butt1:hover, .hidden-butt2:hover, .hidden-butt3:hover{
+
+.notifications-settings-button:hover, .fork-repo-button:hover, .star-repo-button:hover{
   cursor: pointer;
 }
   
 
-.hidden-title-buttons1, .hidden-title-buttons2, .hidden-title-buttons3{
-position: relative;
-border-style: none;
-margin-right: 6px;
-display: inline-block;
-margin-bottom: 9px;
+.notifications-settings-container, .fork-repo-container, .star-repo-container{
+  position: relative;
+  border-style: none;
+  margin-right: 6px;
+  display: inline-block;
+  margin-bottom: 9px;
 }
 
-.hidden-title-buttons1 .tooltip{
+.notifications-settings-container .tooltip{
   position: absolute;
   background-color: rgb(31, 30, 30);
   color: white;
@@ -274,24 +222,15 @@ margin-bottom: 9px;
   padding-bottom: 7px;
   padding-left: 5px;
   padding-right: 5px;
-  
   border-radius: 5px;
   margin-top: 10px;
-opacity: 0;
+  opacity: 0;
   transition: opacity 0.1s;
   pointer-events: none;
 }
-.hidden-title-buttons1:hover .tooltip{
-opacity: 1;
-}
 
 
-
-
-
-
-
-.hidden-title-buttons2 .tooltip{
+.fork-repo-container .tooltip{
   position: absolute;
   position: absolute;
   background-color: rgb(43, 42, 42);
@@ -303,20 +242,14 @@ opacity: 1;
   padding-bottom: 7px;
   padding-left: 8px;
   padding-right: 8px;
- 
   border-radius: 5px;
   margin-top: 10px;
-opacity: 0;
+  opacity: 0;
   transition: opacity 0.1s;
   pointer-events: none;
 }
-.hidden-title-buttons2:hover .tooltip{
-  opacity: 1;
-  }
 
-
-
-.hidden-title-buttons3 .tooltip{
+  .star-repo-container .tooltip{
   position: absolute;
   position: absolute;
   background-color: rgb(43, 42, 42);
@@ -331,182 +264,126 @@ opacity: 0;
   margin-left: -40px;
   border-radius: 5px;
   margin-top: 10px;
-opacity: 0;
+  opacity: 0;
   transition: opacity 0.1s;
   pointer-events: none;
 }
-.hidden-title-buttons3:hover .tooltip{
+.star-repo-container:hover .tooltip, .fork-repo-container:hover .tooltip, .notifications-settings-container:hover .tooltip {
   opacity: 1;
-  }
-
+}
 
 
 .hidden-title-icons{
   height: 20px;
- 
-}
-.hidden-title-menu-activities{
-display: flex;
-align-items: center;
-
 }
 
-.hidden-title-menu1{
+.hidden-title-menu{
   display: flex;
- align-items: center;
-margin-right: 15px;
-font-family: arial;
-font-size: 14px;
-margin-bottom: 10px;
-margin-top: 4px;
-color: gray;
-
-width: fit-content;
+  align-items: center;
 }
-.hidden-title-menu1:hover{
+
+.starred-repositories ,.repositories-status{
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+  font-family: arial;
+  font-size: 14px;
+  margin-bottom: 10px;
+  margin-top: 4px;
+  color: gray;
+  width: fit-content;
+}
+
+.starred-repositories:hover, 
+.repositories-status:hover, 
+.forked-repositories:hover, 
+.observed-repositories:hover, 
+.branched-repositories:hover, 
+.tagged-repositories:hover ,
+.user-activity:hover,
+.user-acts:hover
+{
   color: blue;
   cursor: pointer;
 }
 
-.hidden-title-menu2{
+.forked-repositories, .observed-repositories, .branched-repositories, .tagged-repositories{
   display: flex;
- align-items: center;
-margin-right: 15px;
-font-family: arial;
-font-size: 14px;
-margin-bottom: 10px;
-margin-top: 4px;
-color: gray;
-}
-.hidden-title-menu2:hover{
-  color: blue;
-  cursor: pointer;
+  align-items: center;
+  margin-right: 15px;
+  font-family: arial;
+  font-size: 14px;
+  margin-bottom: 10px;
+  margin-top: 4px;
+  color: gray;
 }
 
-
-.hidden-title-menu3{
+.user-activity{
   display: flex;
- align-items: center;
-margin-right: 15px;
-font-family: arial;
-font-size: 14px;
-margin-bottom: 10px;
-margin-top: 4px;
-color: gray;
+  align-items: center;
+  margin-right: 20px;
+  font-family: arial;
+  font-size: 14px;
+  margin-bottom: 10px;
+  margin-top: 4px;
+  color: gray;
 }
 
-
-
-.hidden-title-menu4{
+.user-acts{
   display: flex;
- align-items: center;
-margin-right: 15px;
-font-family: arial;
-font-size: 14px;
-margin-bottom: 10px;
-margin-top: 4px;
-color: gray;
-}
-.hidden-title-menu4:hover{
-  color: blue;
-  cursor: pointer;
+  align-items: center;
+  margin-right: 20px;
+  font-family: arial;
+  font-size: 14px;
+  margin-bottom: 10px;
+  margin-top: 4px;
+  color: gray;
+  display: none;
 }
 
-
-.hidden-title-menu5{
-  display: flex;
- align-items: center;
-margin-right: 15px;
-font-family: arial;
-font-size: 14px;
-margin-bottom: 10px;
-margin-top: 4px;
-color: gray;
-
-}
-.hidden-title-menu5:hover{
-  color: blue;
-  cursor: pointer;
-}
-
-
-.hidden-title-menu6{
-  display: flex;
- align-items: center;
-margin-right: 20px;
-font-family: arial;
-font-size: 14px;
-margin-bottom: 10px;
-margin-top: 4px;
-color: gray;
-
-}
-.hidden-title-menu6:hover{
-  color: blue;
-  cursor: pointer;
-}
-.hidden-title-menu7{
-  display: flex;
- align-items: center;
-margin-right: 20px;
-font-family: arial;
-font-size: 14px;
-margin-bottom: 10px;
-margin-top: 4px;
-color: gray;
-display: none;
-}
-.hidden-title-menu7:hover{
-  color: blue;
-  cursor: pointer;
-}
-.hidden-icons-numbers{
+.hidden-title-menu span{
   color: black; 
   margin-right: 5px;
 }
-.hidden-icons-numbers:hover{
-cursor: pointer;
-color: blue;
+  .hidden-title-menu span:hover{
+  cursor: pointer;
+  color: blue;
 }
 
-.hidden-icons{
+.hidden-title-menu img, .repositories-status img, .user-acts img{
   height: 16px;
   margin-right: 7px;
-  
-}
-@media screen and (max-width: 1274px){
-
-  
 }
 
-@media screen and (max-width: 830px) {
+
+@media screen and (max-width: 845px) {
  .page-title{
   display: block;
  }
-  .page-title-right{
+  .right-page-title{
    margin-left: 32%;
   }
  
   
 }
 @media screen and (max-width:768px) {
-  .page-title-left{
+  .left-page-title{
  display: none;
   }
-   .page-title-right{
+   .right-page-title{
 display: none;
    }
-  .hidden-title-menu{
+  .hidden-title{
    display: initial;
    
   }
    
  }
  @media screen and (max-width: 570px){
-.hidden-title-menu6{
+.user-activity{
   display: none;
 }
-.hidden-title-menu7{
+.user-acts{
   display: initial;
 }
  }
